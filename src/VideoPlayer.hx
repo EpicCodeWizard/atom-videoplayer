@@ -28,7 +28,7 @@ private typedef State = {
 @:keep
 class VideoPlayer {
 
-	static var allowedFileTypes = ['3gp','avi','mov','mp4','m4v','mkv','ogv','ogm','webm','mp3'];
+	static var allowedFileTypes = ['3gp','avi','mov','mp4','m4v','mkv','ogv','ogm','webm','mp3','pdf'];
     static var disposables : CompositeDisposable;
 	static var statusbar : Element;
 
